@@ -27,3 +27,21 @@ Raspberry Pi Pico as the microcontroller in this project.
 Proof: \
 ![Image 1](<Day 1/Prototyping.jpeg>) \
 ![Image 2](<Day 1/Final Layout.png>)
+
+## 27th July: Digitalizing Physical Layout and deciding on keyboard matrix. (11:40 ~ 12:44)
+I then used [](keyboard-editor.com) to turn my sketch into an image. Decided on spacng out the `F1~F12 keys`
+to make them distinguishable from the `1~0 keys`, so 1 key had to be removed. Other than that, added more space
+for the Raspberry Pi Pico to the right of the keyboard. (Hopefully that will fit, I'm just estimating its size visually)
+
+Took a while to get used to typing out the JSON file, but in the end I got a basic layout that looked like this:
+![Image 3](<Day 2/Finished Basic Layout.png>) 
+
+I was scared that the microcontroller wouldn't fit into the 1u by 4u space on the right, so I decided to
+add more space by seperating the `F1~F12` keys.
+![Image 4](<Day 2/Finished Layout Prototype.png>)
+
+Drawing the keyboard matrix was... interesting. Because of the reserved space taken up by the microcontroller,
+I found it very hard to draw a sensible keyboard matrix that worked with the `Right Arrow` key. Either I had to
+take up another GPIO pin for only 1 key, or I could route the `Enter` key's trace over to the key. I ended up picking
+the latter decision, which might come back to bite me when I make the PCB.
+![Image 5](<Day 2/Finished Matrix.png>)
