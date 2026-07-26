@@ -68,3 +68,11 @@ redo all of those rows again.
 
 After redoing the keyboard, I drew in some of the traces before clocking off for dinner.
 ![Image 11](<Day 2/Stopping for Dinner.png>)
+
+## 27th July: Finished PCB (19:50 ~ 20:21)
+Finished the PCB! Drew all of the traces in, and checked using the Design Rules Checker tool.
+There are 2 warnings that showed up though, stuff about the USB port of the Raspberry Pi Pico clipping the board.
+It **shouldn't** be an issue though.
+
+![Image 12](<Day 2/Traces Made.png>) \
+![Image 13](<Day 2/PCB DONEEEEE.png>)
