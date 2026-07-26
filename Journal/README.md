@@ -76,3 +76,9 @@ It **shouldn't** be an issue though.
 
 ![Image 12](<Day 2/Traces Made.png>) \
 ![Image 13](<Day 2/PCB DONEEEEE.png>)
+
+## 27th July: Added Mounting Holes. (21:31 ~ 21:51)
+Mounting holes were added to the PCB.
+
+![Image 14](<Day 2/Add Mounting Holes.png>) \
+![Image 15](<Day 2/Holes Done.png>)
