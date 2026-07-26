@@ -45,3 +45,26 @@ I found it very hard to draw a sensible keyboard matrix that worked with the `Ri
 take up another GPIO pin for only 1 key, or I could route the `Enter` key's trace over to the key. I ended up picking
 the latter decision, which might come back to bite me when I make the PCB.
 ![Image 5](<Day 2/Finished Matrix.png>)
+
+## 27th July: Starting work on the PCB. (13:00 ~ 17:54)
+Ended up just using one extra GPIO pin for the `Right Arrow` key. \
+First, I installed the marbatlib library for keyboard schematics, then started work on the PCB.
+Honestly, making the keyboard matrix was the easy bit. Make a switch, copy it in a grid, then remove all of the unmapped keys.
+![Image 6](<Day 2/Schematic Matrix.png>)
+
+Thought about adding LEDs to my keyboard, but since they are tiny and have to be hand-soldered, theres a high likelihood
+that they would break off during usage. And they are also a pain to solder, no.
+
+![Image 7](<Day 2/Half Done.png>) \
+![Image 8](<Day 2/Finished Layout.png>)
+
+Well, well, well. Turns out that after finishing the layout, I realized that the connections were kind of, strange.
+When I rechecked my schematic, I realized that the switches for **4 entire rows** were named incorrectly, and so I had to
+redo all of those rows again.
+
+![Image 8](<Day 2/Schem Annotation Order.png>) \
+![Image 9](<Day 2/Redo.png>) \
+![Image 10](<Day 2/Finished Redo.png>)
+
+After redoing the keyboard, I drew in some of the traces before clocking off for dinner.
+![Image 11](<Day 2/Stopping for Dinner.png>)
