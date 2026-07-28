@@ -82,3 +82,20 @@ Mounting holes were added to the PCB.
 
 ![Image 14](<Day 2/Add Mounting Holes.png>) \
 ![Image 15](<Day 2/Holes Done.png>)
+
+## 27th July: Redid PCB again. (22:01 ~ 23:45)
+Turns out using a randomly-sized PCB is terrible when making a keyboard case. Who would've thought? \
+Changed the mounting holes from M3 to M2, sized edge cuts equally on all sides, and actually added a GND.
+
+This took quite a while primarily because of two reasons:
+- Making sure that the edge cuts were equal on both the left and right sides were a pain. KiCad's snap-to-grid 
+was amazing when placing the switches (no it wasn't), but it was terrible when placing edge cuts & copper flood fill.
+Ended up making flood fill messy, because KiCad can calculate where to fill the copper anyways.
+- Errors about the Pico's pins intersecting the `Possible Antenna Keep Out` area kept appearing, despite the 
+regular Pico THT not having an antenna. Ended up removing the antenna area as per recommendations from `#keeb` to ignore
+the error.
+
+![Image 16](<Day 3/Redo PCB again.png>) \
+![Image 17](<Day 3/Sized Correctly & Actually has GND.png>) \
+![Image 18](<Day 3/Stuck on Errors.png>) \
+![Image 19](<Day 3/Removed Area.png>)
