@@ -99,3 +99,12 @@ the error.
 ![Image 17](<Day 3/Sized Correctly & Actually has GND.png>) \
 ![Image 18](<Day 3/Stuck on Errors.png>) \
 ![Image 19](<Day 3/Removed Area.png>)
+
+## 30th July: And again. (15:46 ~ 16:28)
+Took a 3 day break, came back, and oh wow! The right side of the board looks like you could put a billboard on it.
+Nothing much to say, condensed the board a little, because I just knew that traces can go through the purple 
+lines (component borders?), as long as they didn't touch the circles.
+
+![Image 20](<Day 4/Shrinking PCB.png>) \
+![Image 21](<Day 4/Shrink Almost Done.png>) \
+![Image 22](<Day 4/LGTM.png>)

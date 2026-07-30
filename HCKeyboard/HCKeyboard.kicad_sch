@@ -1226,105 +1226,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_marbastlib-mx:MX_stab"
 			(pin_names
 				(offset 1.016)
@@ -2664,6 +2565,16 @@
 			(type default)
 		)
 		(uuid "09e6fa54-9b4d-42e2-80e5-ffce106c073b")
+	)
+	(wire
+		(pts
+			(xy 21.59 217.17) (xy 38.1 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce42877-3ad6-439a-9eea-57d69de983da")
 	)
 	(wire
 		(pts
@@ -4176,7 +4087,7 @@
 		(uuid "fc35c997-dab3-4b26-b11f-8789bf895875")
 	)
 	(label "COL0"
-		(at 38.1 194.31 180)
+		(at 38.1 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4186,7 +4097,7 @@
 		(uuid "0e4d8723-2460-46fd-9db6-f36fadbd028e")
 	)
 	(label "ROW4"
-		(at 38.1 189.23 180)
+		(at 83.82 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4206,7 +4117,7 @@
 		(uuid "10307beb-d188-429f-920a-77c154587ce9")
 	)
 	(label "ROW5"
-		(at 38.1 191.77 180)
+		(at 83.82 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4226,7 +4137,7 @@
 		(uuid "14e8a5a0-c7b9-43d8-bc08-743d2a973665")
 	)
 	(label "COL2"
-		(at 38.1 199.39 180)
+		(at 38.1 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4236,7 +4147,7 @@
 		(uuid "155aba7e-04cd-45f0-8de0-ff38a73b5a92")
 	)
 	(label "COL4"
-		(at 38.1 204.47 180)
+		(at 38.1 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4256,7 +4167,7 @@
 		(uuid "19fb37bf-94ed-4a32-bf38-21bdd957b486")
 	)
 	(label "COL6"
-		(at 38.1 209.55 180)
+		(at 38.1 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4266,22 +4177,22 @@
 		(uuid "19fdb899-88ba-4349-ae65-3d50bd88c87f")
 	)
 	(label "COL10"
-		(at 83.82 181.61 0)
+		(at 38.1 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1fb00e43-8547-4163-b126-93569c124434")
 	)
 	(label "COL12"
-		(at 83.82 186.69 0)
+		(at 38.1 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "23251762-1d1e-48d5-aca5-b581f9fbb2a8")
 	)
@@ -4316,7 +4227,7 @@
 		(uuid "264a16c8-ad02-4b0c-ac99-7e3f359775c8")
 	)
 	(label "COL7"
-		(at 38.1 212.09 180)
+		(at 38.1 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4326,27 +4237,27 @@
 		(uuid "2f28cabd-0278-4fea-a52a-c0cc9b666686")
 	)
 	(label "COL11"
-		(at 83.82 184.15 0)
+		(at 38.1 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "301b102f-3c80-404f-93d7-41a2256898ac")
 	)
 	(label "COL14"
-		(at 83.82 191.77 0)
+		(at 38.1 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3b6bad7e-5bb4-4056-8dd2-b25d60e33852")
 	)
 	(label "COL3"
-		(at 38.1 201.93 180)
+		(at 38.1 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4406,7 +4317,7 @@
 		(uuid "68479a18-3bfb-4237-b2b8-e0cd64a93302")
 	)
 	(label "ROW2"
-		(at 38.1 184.15 180)
+		(at 83.82 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4436,7 +4347,7 @@
 		(uuid "783caa9f-1a67-4979-953a-7e2987534f54")
 	)
 	(label "ROW0"
-		(at 38.1 179.07 180)
+		(at 21.59 217.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4466,7 +4377,7 @@
 		(uuid "8869729b-6874-4f5b-ba40-660ca4d51794")
 	)
 	(label "COL5"
-		(at 38.1 207.01 180)
+		(at 38.1 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4476,7 +4387,7 @@
 		(uuid "8b6f992c-3607-4ea9-8683-2620a4f0456c")
 	)
 	(label "ROW1"
-		(at 38.1 181.61 180)
+		(at 83.82 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4496,7 +4407,7 @@
 		(uuid "90d48f40-94a9-48f9-8d97-c733ec82ea99")
 	)
 	(label "COL9"
-		(at 38.1 217.17 180)
+		(at 38.1 201.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,12 +4417,12 @@
 		(uuid "97ae7ab2-06e4-4666-a8c1-f8f3a3707c42")
 	)
 	(label "COL13"
-		(at 83.82 189.23 0)
+		(at 38.1 212.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "993509d9-ea9d-49e8-bf1e-72625592117c")
 	)
@@ -4526,7 +4437,7 @@
 		(uuid "9938e32c-5a5b-41fc-afee-1f4aba30bb9c")
 	)
 	(label "ROW3"
-		(at 38.1 186.69 180)
+		(at 83.82 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4566,7 +4477,7 @@
 		(uuid "be602291-f314-4c53-98c6-f0e426ecefe0")
 	)
 	(label "COL8"
-		(at 38.1 214.63 180)
+		(at 38.1 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4576,7 +4487,7 @@
 		(uuid "cb672c24-aa7c-4573-9d49-145e73f3654a")
 	)
 	(label "COL1"
-		(at 38.1 196.85 180)
+		(at 38.1 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5670,82 +5581,6 @@
 			(project "HCKeyboard"
 				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 322.58 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc6851f-a103-4d4a-a7be-3c119a4b058d")
-		(property "Reference" "H2"
-			(at 325.12 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 325.12 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 322.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9096,82 +8931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 360.68 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f86a08b-2911-4bc5-97ab-5bc928421ccd")
-		(property "Reference" "H7"
-			(at 363.22 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 363.22 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 360.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 360.68 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 64.77 40.64 0)
 		(unit 1)
@@ -9486,82 +9245,6 @@
 			(project "HCKeyboard"
 				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
 					(reference "SW78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 341.63 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5355823e-97ff-40e5-91f2-e15d67d13344")
-		(property "Reference" "H4"
-			(at 344.17 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 344.17 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 341.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 341.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14408,82 +14091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 322.58 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b589f5e-ba30-4a65-bb7a-9d3cafde5f98")
-		(property "Reference" "H1"
-			(at 325.12 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 325.12 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 322.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 322.58 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 212.09 63.5 90)
 		(unit 1)
@@ -16032,158 +15639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 341.63 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b61b1854-67a1-43ce-9ac9-49421a498818")
-		(property "Reference" "H6"
-			(at 344.17 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 344.17 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 341.63 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 341.63 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 322.58 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b64991ad-80bb-4211-9f02-f51c925272d0")
-		(property "Reference" "H3"
-			(at 325.12 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 325.12 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 322.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 322.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 247.65 44.45 90)
 		(unit 1)
@@ -17506,82 +16961,6 @@
 			(project "HCKeyboard"
 				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
 					(reference "SW34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 341.63 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d286763f-be67-4ccb-9e5a-970dc0809920")
-		(property "Reference" "H5"
-			(at 344.17 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 344.17 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 341.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 341.63 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "HCKeyboard"
-				(path "/11e5d0eb-fed0-439e-a549-134be420093f"
-					(reference "H5")
 					(unit 1)
 				)
 			)
